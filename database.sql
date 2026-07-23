@@ -47,3 +47,5 @@ CREATE TABLE IF NOT EXISTS progreso (
         REFERENCES juegos(id_juego)
 );
 
+INSERT INTO usuarios (nombre, correo) VALUES ('Alumno Demo', 'demo@escuela.edu');
+
